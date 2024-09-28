@@ -1,5 +1,5 @@
 body {
-    font-family: old standard tt; 
+    font-family: 'Old Standard TT', serif;; 
     background-color: #ffc8dd;
 }
 
@@ -31,10 +31,12 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;   
+    margin-bottom: 20px;
 }
 
 #main-places {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
